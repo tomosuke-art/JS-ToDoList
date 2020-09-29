@@ -1,0 +1,83 @@
+/* this file is loaded by index.html and styles the page */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5em;
+}
+header{
+  background-color:#FFFAF0;
+  opacity:0.7;
+  text-align:center;
+  padding-top:20px;
+}
+header h1{
+  color:#4689FF;
+}
+h1 {
+  font-style: italic;
+  color: #75A9FF;
+  text-align:center;
+}
+#topgroup {
+  background-image: url("https://cdn.glitch.com/cbd6039a-b511-49e3-be79-294d9695cf7b%2FC30271F3-B4A3-4A5C-8341-BB2FB90A44F4.JPG?v=1601127096356");
+  text-align:center;
+  background-size: cover;
+}
+#toppage p {
+  font-weight:bold;
+  font-style: italic;
+}
+#list {
+  background-image: url("https://cdn.glitch.com/cbd6039a-b511-49e3-be79-294d9695cf7b%2Fstudy_night_boy.png?v=1601128227922");
+  background-color:rgba(255,255,255,0.8);
+  background-blend-mode:lighten;
+  height:700px;
+}
+#name {
+  color:white;
+  text-align:right;
+}
+form {
+  background-color: #eee;
+  display: grid;
+  grid-gap: 1em;
+  padding: 1em;
+  max-width: 40ch;
+}
+
+input {
+  border: 1px solid silver;
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 20%;
+  margin:0 auto;
+  width:30%;
+}
+
+form button {
+  background-color: #bbbbf2;
+  border: 2px solid currentColor;
+  cursor: pointer;
+  border-radius: .25em;
+  font-size: inherit;
+  max-width: 20ch;
+  padding: 0.25em 1em;
+
+}
+
+form button:hover {
+  background-color: lavender;
+}
+
+footer {
+  background-color:black;
+  padding-top: 1.5em;
+  border-top: 1px solid lightgrey;
+  height:100px;
+}
